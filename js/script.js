@@ -26,6 +26,8 @@ if (userAge >= 65) {
     console.log("Il prezzo del biglietto è di € " + discountPrice)
 }
 
+const message = `Il prezzo del biglietto è di € ${discountPrice}`
+
 // OUTPUT
 
-document.getElementById("result").innerHTML = `Il prezzo del biglietto è di € ${discountPrice}`
+document.getElementById("result").innerHTML = message
